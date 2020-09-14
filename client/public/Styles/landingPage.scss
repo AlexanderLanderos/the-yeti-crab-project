@@ -45,11 +45,12 @@ html{
 }
 
 #loginPageButton {
-  width: 153px;
+  width: 185px;
   height: 30px;
   border: 1px solid rgb(37, 118, 165);
   color: rgb(22, 71, 100);
   border-radius: 3px;
+  margin-top: 5px;
 }
 
 .SignUpContainer {
@@ -59,9 +60,10 @@ html{
   margin-top: 20px;
   line-height: 1.7;
 }
+
 #signupPageButton {
   margin-top: 5px;
-  width: 153px;
+  width: 185px;
   height: 30px;
   border: 1px solid rgb(37, 118, 165);
   color: rgb(22, 71, 100);
