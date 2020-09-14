@@ -24,7 +24,7 @@ export const login = (userInfo) => {
       })
       // Expect user id from api call
       .then((res) => dispatch(loginSuccess(res.data)))
-      .then(()=> dispatch(getPosts()))
+      .then(() => dispatch(getPosts()))
       .catch((err) => dispatch(loginFailed(err.message)));
   };
 };
